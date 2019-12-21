@@ -10,10 +10,6 @@ from matplotlib.figure import Figure
 from validate import validate
 from newton import Newton
 
-# With an exception of certain codes, all matplotlib related functions were learned from https://matplotlib.org/3.1.1/contents.html
-# All NumPy related functions were learned from https://numpy.org/doc/1.17/
-# All tkinter widgets were learned from https://tkdocs.com/widgets/index.html and http://effbot.org/tkinterbook/
-
 
 class Gui:
     """Gui class for Newton's Method Calculator GUI"""
@@ -161,14 +157,12 @@ class Gui:
 
     def default_graph(self):
         """This function draws an empty graph"""
-        # Following two lines are adapted from https://matplotlib.org/3.1.1/gallery/user_interfaces/embedding_in_tk_sgskip.html
         graph = Figure(figsize=(5, 4), dpi=100)
         axes = graph.add_subplot(1, 1, 1)
         
         axes.set_title("f(x)")
 
         # Embed matplotlib graph on tkinter frame
-        # Following three lines are adapted from https://matplotlib.org/3.1.1/gallery/user_interfaces/embedding_in_tk_sgskip.html
         canvas = FigureCanvasTkAgg(graph, master=self.graphing_frame)
         canvas.draw()
         canvas.get_tk_widget().grid(row=0, column=0, padx=10)
