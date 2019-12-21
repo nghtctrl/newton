@@ -8,8 +8,6 @@ from sympy import Symbol, root, sqrt, cbrt, log, ln, exp, pi, cos, sin, tan, \
     sec, csc, cot, acos, asin, atan, asec, acsc, acot
 from validate import validate
 
-# SymPy related functions were learned from https://docs.sympy.org/latest/index.html
-
 
 class Newton:
     """
