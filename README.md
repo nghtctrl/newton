@@ -1,5 +1,5 @@
 # Newton's Method Calculator
-This project was created for submission on CS108 final project at Calvin University.
+This project was created for CS108 final project at Calvin University.
 
 This project is dependent on SymPy, NumPy, and matplotlib libraries.
 
