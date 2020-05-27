@@ -1,5 +1,5 @@
 # Newton's Method Calculator
-This calculator was created for CS 108 final project at Calvin University.
+This calculator was created for [CS 108 final project at Calvin University](https://cs.calvin.edu/courses/cs/108/kvlinden/project/).
 
 Please make sure to install SymPy, NumPy, and matplotlib libraries before running the module.
 
