@@ -5,4 +5,4 @@ It can approximate the root of a differentiable function, to a desired precision
 
 Please make sure to install [SymPy](https://www.sympy.org/en/index.html), [NumPy](https://numpy.org/), and [matplotlib](https://matplotlib.org/) libraries before running the module.
 
-This calculator can support many different types of functions; however, it is unable to graph all of them due to incompatibilities with NumPy and their lack of support for certain mathematical functions [e.g. arccot(x)]. I would encourage users to limit to approximating monomial or polynomial functions for the best experience with the calculator.
+This calculator can support many different types of functions; however, it is unable to graph all of them due to incompatibilities with NumPy and their lack of support for certain mathematical functions [e.g. arccot(x)]. Please refer to the calculator’s documentation. I would encourage users to limit to approximating monomial or polynomial functions for the best experience with the calculator.
